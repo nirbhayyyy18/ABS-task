@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #2b4055;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        nav .logo {
+            font-size: 1.5em;
+        }
+
+        /* Section styles */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #about {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+        }
+
+        #listings {
+            background-color: #bdc3c7;
+            color: #2c3e50;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .property {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: left;
+        }
+
+        .property img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .property h3 {
+            margin: 10px 0;
+        }
+
+        .property p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Real Estate Hub</div>
+        <div>
+            <a href="#about">About Us</a>
+            <a href="#listings">Listings</a>
+        </div>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Welcome to Real Estate Hub, your trusted partner in finding your dream property. We specialize in providing top-notch services for buying, selling, and renting properties. Whether you're looking for a cozy apartment, a spacious house, or a commercial space, we've got you covered.
+        </p>
+    </section>
+
+    <section id="listings">
+        <h2>Property Listings</h2>
+        <div class="property">
+            <img src="https://www.quickmovenow.com/wp-content/uploads/how-to-sell-your-flat-quickly.jpg" alt="Property 1">
+            <h3>Modern Apartment</h3>
+            <p>2 BHK | $200,000 | Downtown</p>
+        </div>
+        <div class="property">
+            <img src="https://www.taxscan.in/wp-content/uploads/2018/02/Flats-Taxscan.jpg" alt="Property 2">
+            <h3>Luxury Villa</h3>
+            <p>5 BHK | $850,000 | Suburbs</p>
+        </div>
+        <div class="property">
+            <img src="https://cdn-ilaegcj.nitrocdn.com/pScFgRFdCekEnfkVxtdfnOvAqwfYynRB/assets/images/optimized/rev-2e5f70d/propertysaviour.co.uk/wp-content/uploads/2023/10/Selling-A-Block-of-Flats-1-1024x538.jpg" alt="Property 3">
+            <h3>Office Space</h3>
+            <p>3000 sq. ft. | $500,000 | Business District</p>
+        </div>
+    </section>
+
+</body>
+</html>
